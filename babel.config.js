@@ -7,6 +7,8 @@ const moduleResolverPlugin = [
       components: './src/components',
       containers: './src/containers',
       store: './src/store',
+      actions: './src/store/actions',
+      reducers: './src/store/reducers',
       types: './src/types',
     },
   },

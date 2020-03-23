@@ -15,7 +15,6 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
-
 import {
   Header,
   LearnMoreLinks,
@@ -23,6 +22,8 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+
+import RecorderComponent from 'components/Recorder.component';
 
 const App: () => React$Node = () => {
   return (
@@ -32,6 +33,7 @@ const App: () => React$Node = () => {
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
+          <RecorderComponent />
           <Header />
           {global.HermesInternal == null ? null : (
             <View style={styles.engine}>
