@@ -4,10 +4,10 @@
  */
 
 import React from 'react';
-import {Provider} from 'react-redux';
+import { Provider } from 'react-redux';
 
 import App from './App';
-import configStore from 'store/config_store';
+import configStore from 'store/store.config';
 
 const store = configStore();
 

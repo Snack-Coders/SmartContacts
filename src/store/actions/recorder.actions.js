@@ -1,4 +1,4 @@
-import {RECORDER_START, RECORDER_STOP} from 'actions/action_types';
+import { RECORDER_START, RECORDER_STOP } from 'actions/actionTypes';
 
 export const recorderStart = () => {
   return {

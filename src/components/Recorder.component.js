@@ -1,7 +1,8 @@
-import React, {Component} from 'react';
-import {View, Button} from 'react-native';
-import {connect} from 'react-redux';
-import {recorderStart, recorderStop} from 'actions/recorder_actions';
+import React, { Component } from 'react';
+import { View, Button } from 'react-native';
+import { connect } from 'react-redux';
+
+import { recorderStart, recorderStop } from 'actions/index';
 
 class RecorderComponent extends Component {
   constructor(props) {

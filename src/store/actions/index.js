@@ -1,1 +1,1 @@
-export {recorderStart, recorderStop} from 'actions/recorder_actions';
+export { recorderStart, recorderStop } from 'actions/recorder.actions';
