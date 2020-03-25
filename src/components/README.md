@@ -1,4 +1,4 @@
-##Presentational components
+## Presentational components
 
 Presentational components are those components whose only job is to render a view according to the 
 styling and data passed to them. Essentially, they do not contain any business logic. That's why 
