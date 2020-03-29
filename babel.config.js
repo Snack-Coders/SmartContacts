@@ -9,6 +9,7 @@ const moduleResolverPlugin = [
       store: './src/store',
       actions: './src/store/actions',
       reducers: './src/store/reducers',
+      selectors: './src/store/selectors',
       types: './src/types',
     },
   },

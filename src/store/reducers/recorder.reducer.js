@@ -1,10 +1,22 @@
-import { RECORDER_START, RECORDER_STOP } from 'actions/actionTypes';
+/**
+ *  Smart Contacts App
+ *
+ *  Store: Recorder reducer
+ *
+ *  @flow
+ */
+
+import type { RecorderState, Action } from 'types/index';
+import { RECORDER_START, RECORDER_STOP } from 'types/index';
 
 const initialState = {
   recording: false,
 };
 
-const recorderReducer = (state = initialState, action) => {
+const recorderReducer: RecorderState = (
+  state: RecorderState = initialState,
+  action: Action,
+) => {
   switch (action.type) {
     case RECORDER_START:
       return {
